@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution Personal page](https://github.com/samuelpklm/samuel.github.com/edit/main)
+- Live Site URL: [Personal page](https://samuelpklm.github.io/samuel.github.com/)
 
 ## My process
 
