@@ -1225,7 +1225,7 @@ $(document).ready(function(){
             $("#exjquery img").attr("src","./skills/5cc1c3bd51697431e1e115c7c9f919f9.webp");
 
         }else{
-            $("#exjquery img").attr("src","./skills/Jquery.png");
+            $("#exjquery img").attr("src","./skills/Jquery.jpg");
 
         } 
          
