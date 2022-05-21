@@ -1373,17 +1373,19 @@ $(document).ready(function(){
                                 edad: $("#Age").val(),
                                 puntuacion: calificacion
                              };
-                
-                             emailjs.send('gmail','template_ekcxbbn', templateParams)
-                            .then(function(response) {
-                                console.log('SUCCESS!', response.status, response.text);
-                                alert("Gracias por tu mensaje");
-                
                                 $("#name").val("") ;
                                 $("#email").val("") ;
                                 $("#role").val(null) ;
                                 $("#comments").val("");
                                 $("#Age").val("");
+                             
+                             alert("Enviando mensaje...");
+                
+                             emailjs.send('gmail','template_ekcxbbn', templateParams)
+                            .then(function(response) {
+                                console.log('SUCCESS!', response.status, response.text);
+                                alert("Gracias por tu mensaje");
+                                  
                             }, function(error) {
                                 console.log('FAILED...', error);
                                 alert("Uhh, ocurrió un error, intenta enviar el mensaje mas tarde por favor.");
