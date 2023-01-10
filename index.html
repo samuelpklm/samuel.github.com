@@ -1,0 +1,869 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SamRod</title>
+
+    <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <main>
+      <header>
+   <nav>
+       <i id="contenedor-ball" class="nes-pokeball yellow">
+           <div id="cortina" class=""></div>
+       </i>
+       <ul>
+            <a href="#me"><li>Profile</li></a>
+            <a href="#skills"><li>Skill</li></a>
+            <a href="#proyect"><li>Proyect</li></a>
+            <a href="#contac-me"><li>Contact Me</li></a>
+       </ul>
+       <div id="tabindex">
+        <img id="bars" src="./image/bars.svg" alt="" style="height: 2rem;" class="nes-pointer">
+         <ul class="show-font">
+            <li><a href="#me">Profile</a></li>
+            <li><a href="#skills">Skill</a></li>
+            <li><a href="#proyect">Proyect</a></li>
+            <li><a href="#contac-me">Contact Me</a></li>
+        </ul>
+      </div>
+   </nav>
+   
+       <img id="me" src="./Avatar/avatar.gif" alt="">
+	  
+      <div id="sobre-mi-mi">
+        
+          <svg id="svg-2" viewBox="0 0 320 300">
+            <!-- Symbol -->
+            <symbol id="s-text">
+              <text text-anchor="middle"
+                    x="50%" y="35%" dy=".3em">
+                About me
+              </text>
+            </symbol>
+        
+            <!-- Duplicate symbols -->
+            <use xlink:href="#s-text" class="text"
+                 ></use>
+            <use xlink:href="#s-text" class="text"
+                 ></use>
+            <use xlink:href="#s-text" class="text"
+                 ></use>
+            <use xlink:href="#s-text" class="text"
+                 ></use>
+            <use xlink:href="#s-text" class="text"
+                 ></use>
+        
+          </svg>
+      </div>
+
+      </header>
+
+    <div id="chat">
+    <section id="nes-container-about" class="nes-container">
+        <section class="message-list">
+          <section class="message -right">
+            <!-- Balloon -->
+            <div class="nes-balloon from-right is-dark">
+               <svg id="svg-1" version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                width="60px" height="100px" viewBox="0 0 600 100">
+             <style type="text/css">
+             
+             <![CDATA[
+             
+               text-2 {
+                 filter: url(#filter);
+                 fill: white;
+                   font-size: 15px;
+                 -webkit-font-smoothing: antialiased;
+                 -moz-osx-font-smoothing: grayscale;
+                     }
+                    ]]>
+             </style>
+               <defs>
+             
+                 <filter id="filter">
+                     <feFlood flood-color="black" result="rgb(33,37,41)" />
+                     <feFlood flood-color="red" result="flood1" />
+                     <feFlood flood-color="limegreen" result="flood2" />
+                   <feOffset in="SourceGraphic" dx="3" dy="0" result="off1a"/>
+                   <feOffset in="SourceGraphic" dx="2" dy="0" result="off1b"/>
+                   <feOffset in="SourceGraphic" dx="-3" dy="0" result="off2a"/>
+                   <feOffset in="SourceGraphic" dx="-2" dy="0" result="off2b"/>
+                     <feComposite in="flood1" in2="off1a" operator="in"  result="comp1" />
+                     <feComposite in="flood2" in2="off2a" operator="in" result="comp2" />
+             
+                     <feMerge x="0" width="100%" result="merge1">
+                     <feMergeNode in = "black" />
+                     <feMergeNode in = "comp1" />
+                     <feMergeNode in = "off1b" />
+             
+                     <animate 
+                       attributeName="y" 
+                         id = "y"
+                         dur ="4s"
+                         
+                         values = '104px; 104px; 30px; 105px; 30px; 2px; 2px; 50px; 40px; 105px; 105px; 20px; 6ßpx; 40px; 104px; 40px; 70px; 10px; 30px; 104px; 102px'
+             
+                         keyTimes = '0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1'
+             
+                         repeatCount = "indefinite" />
+              
+                     <animate attributeName="height" 
+                         id = "h" 
+                         dur ="4s"
+                         
+                         values = '10px; 0px; 10px; 30px; 50px; 0px; 10px; 0px; 0px; 0px; 10px; 50px; 40px; 0px; 0px; 0px; 40px; 30px; 10px; 0px; 50px'
+             
+                         keyTimes = '0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1'
+             
+                         repeatCount = "indefinite" />
+                     </feMerge>
+                   
+             
+                   <feMerge x="0" width="100%" y="60px" height="65px" result="merge2">
+                     <feMergeNode in = "black" />
+                     <feMergeNode in = "comp2" />
+                     <feMergeNode in = "off2b" />
+             
+                     <animate attributeName="y" 
+                         id = "y"
+                         dur ="4s"
+                         values = '103px; 104px; 69px; 53px; 42px; 104px; 78px; 89px; 96px; 100px; 67px; 50px; 96px; 66px; 88px; 42px; 13px; 100px; 100px; 104px;' 
+             
+                         keyTimes = '0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 0.548; 0.577; 0.613; 1'
+             
+                         repeatCount = "indefinite" />
+              
+                     <animate attributeName="height" 
+                         id = "h"
+                         dur = "4s"
+                       
+                       values = '0px; 0px; 0px; 16px; 16px; 12px; 12px; 0px; 0px; 5px; 10px; 22px; 33px; 11px; 0px; 0px; 10px'
+             
+                         keyTimes = '0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513;  1'
+                          
+                         repeatCount = "indefinite" />
+                     </feMerge>
+                   
+                   <feMerge>
+                     <feMergeNode in="SourceGraphic" />  
+             
+                     <feMergeNode in="merge1" /> 
+                   <feMergeNode in="merge2" />
+             
+                     </feMerge>
+                   </filter>
+             
+               </defs>
+             
+             <p>
+               <text-2 x="0" y="100">!Hello, it's a pleasure, what do you want to know about me?</text-2>
+               </p>
+             </svg> 
+            </div>
+            <div class="contenedor-img-chat">
+              <img src="./Avatar/me_1.gif" alt="" class="me-res">
+            </div>
+            
+          </section>
+
+
+        <section id="questionuno">
+            <div class="message -left">
+               
+                <!-- Balloon -->
+                <div class="nes-balloon from-left nes-pointer">
+                  <p>What area of web development do you focus on?</p>
+                </div>
+                <i class="nes-bcrikko nes-pointer"></i>
+            </div>
+              <div class="message -right">
+                <!-- Balloon -->
+                <div class="nes-balloon from-right dos is-dark">
+                  <p>Currently I focus on the frontend. I fluently handle the html and css languages, being able to develop correctly structured pages. To speed up development I usually use the bootstrap 5 library. I implement javascript and the jQuery library to develop the visual effects in my frontend projects.
+                    <br>
+                    I also use javascript for the implementation of different algorithms, and reuse of third-party resources.</p>
+                </div>
+
+                <div class="contenedor-img-chat">
+                  <img src="./Avatar/me_2.gif" alt="" class="me-res-dos">
+                </div>
+                
+            </div>
+        </section>
+
+
+        <section id="questiondos">
+            <div class="message -left">
+                
+                <!-- Balloon -->
+                <div class="nes-balloon from-left nes-pointer">
+                  <p>What is your academic level?</p>
+                </div>
+                <i class="nes-bcrikko nes-pointer"></i>
+            </div>
+              <div class="message -right">
+                <!-- Balloon -->
+                <div class="nes-balloon from-right dos is-dark">
+                  <p>I am currently studying at the National Open University (Venezuela), studying the eighth semester in the systems engineering career. Thanks to university study I have developed a strong logical and analytical mindset, as a product of the study of advanced mathematics, physics and statistical inference. In addition to understanding the bases and studied different technologies related to computing in general, such as programming, databases and the approach to analysis of computer systems</p>
+                </div>
+
+                <div class="contenedor-img-chat">
+                  <img id="me-res-tres" src="./Avatar/me_3.gif" alt="" class="me-res-tres">
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="questiontres">
+          <div class="message -left">
+             
+              <!-- Balloon -->
+              <div class="nes-balloon from-left nes-pointer">
+                <p>Do you have any certification in web development?</p>
+              </div>
+               <i class="nes-bcrikko nes-pointer"></i>
+          </div>
+            <div class="message -right">
+              <!-- Balloon -->
+              <div class="nes-balloon from-right dos is-dark">
+                <p>Yes!, and all the titles are thanks to freecodecamp!, follow my account so you can see all my certificates: <span class="nes-icon is-small heart"><a target="blank" href="https://www.freecodecamp.org/Sarut">Sarut</a><i class="nes-icon is-small heart"></i></span></p>
+              </div>
+
+              <div class="contenedor-img-chat">
+                <img id="me-res-cuatro" src="./Avatar/me_4.gif" alt="" class="me-res-tres">
+              </div>
+              
+          </div>
+      </section>
+
+      <section id="questioncuatro">
+        <div class="message -left">
+           
+            <!-- Balloon -->
+            <div class="nes-balloon from-left nes-pointer">
+              <p>What do you like?</p>
+            </div>
+            <i class="nes-bcrikko nes-pointer"></i>
+        </div>
+          <div class="message -right">
+            <!-- Balloon -->
+            <div class="nes-balloon from-right dos is-dark">
+              <p> I like to develop software on my own, I spend all my free time on it. I play chess at a competitive level, last but most important I am a Christian and I am an active member of my church "The First Baptist Church of Tejerias". </p>
+            </div>
+
+            <div class="contenedor-img-chat">
+              <img id="me-res-cinco" src="./Avatar/me_5.gif" alt="" class="me-res-tres">
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="questioncinco">
+      <div class="message -left">
+          
+          <!-- Balloon -->
+          <div class="nes-balloon from-left nes-pointer">
+            <p>What are your aspirations as a web developer?</p>
+          </div>
+          <i class="nes-bcrikko nes-pointer"></i>
+      </div>
+        <div class="message -right">
+          <!-- Balloon -->
+          <div class="nes-balloon from-right dos is-dark">
+            <p> Being a Fullstack developer, for this I deal daily with the development of different projects, in which the use of different types of technologies is required. Currently I carry out most of my projects using the platform <a target="blank" href="https://www.frontendmentor.io/profile/samuelpklm">FrontendMentor</a> since they offer attractive challenges in which technologies widely needed in the market are used, such as the consumption of APIS. 
+            <br><br>
+            Together I use the platform of <a target="blank" href="https://www.freecodecamp.org/Sarut">FreecodeCamp</a> for offering a good study plan and precise content for learning the different technologies for web development.
+            </p>
+          </div>
+
+          <div class="contenedor-img-chat">
+            <img id="me-res-seis" src="./Avatar/me_6.gif" alt="" class="me-res-tres">
+          </div>
+          
+      </div>
+  </section>
+
+        </section>
+      </section>
+    </div>
+
+    <section id="skills">
+      <section class="p19">
+        <a href="#skills">Skills
+          <div class="s1"></div>
+          <div class="s2"></div>
+        </a>
+      </section>
+      <div id="nes-container-skills" class="nes-container">
+          <div id="exjquery" class="exskills">
+
+            <img class="visible-xs" src="./skills/Jquery.jpg">
+
+            
+            <div class="about-jquery">
+              <h2>JQuery</h2>
+              <p>jQuery is a library developed in 2006 by John Resig that allows adding a layer of AJAX interaction between the web and the applications that we develop by controlling events, creating animations and different effects to enrich the user experience.
+              </p>
+
+              <p>
+                You can verify my skills in this language by reviewing the following project:
+              </p>
+              <p>
+                <a target="blank" href="https://zingy-rugelach-7734b2.netlify.app/">Live site Page</a>
+              </p>
+              <p>
+                <a target="blank" href="https://github.com/samuelpklm/Sarut.github.io/tree/main/faq-accordion-card-main">Code Page</a>
+              </p>
+              <i id="close" class="cerrar nes-icon close is-small nes-pointer"></i>
+            </div>
+          </div>
+          <div id="jquery" class="nes-pointer opa-yello"><img src="./Iconos/jquery.svg" alt=""></div>
+          
+          <div id="exbootstrap" class="exskills">
+            <img src="./skills/bootstrap-stack.png" alt="">
+            <div class="about-jquery">
+              <h2>Bootstrap</h2>
+              <p>Bootstrap is a front-end framework used to develop web applications and mobile first sites, that is, with a layout that adapts to the screen of the device used by the user.
+
+              </p>
+
+              <p>
+                You can verify my skills in this language by reviewing the following project: 
+              </p>
+              <p>
+                <a target="blank" href="https://tourmaline-bienenstitch-6c84e7.netlify.app/">Live site Page</a>
+              </p>
+              <p>
+                <a target="blank" href="https://github.com/samuelpklm/Sarut.github.io/tree/main/testimonials-grid-section-main">Code Page</a>
+              </p>
+              <i id="close" class="cerrar nes-icon close is-small nes-pointer"></i>
+            </div>
+          </div>
+          <div id="bootstrap" class="nes-pointer opa-yello"><img src="./Iconos/bootstrap.svg" alt=""></div>
+          <div id="excss3" class="exskills">
+            <img src="./skills/css3-830x467.jpg" alt="">
+            <div class="about-jquery">
+              <h2>CSS</h2>
+              <p>Css is a graphic design language for defining and creating the presentation of a structured document written in a markup language (HTML in general).              </p>
+
+              <p>
+                You can verify my skills in this language by reviewing the following project:
+              </p>
+              <p>
+                <a target="blank" href="https://bright-platypus-a216b5.netlify.app/">Live site Page</a>
+              </p>
+              <p>
+                <a target="blank" href="https://github.com/samuelpklm/Sarut-jamstack.github.io/tree/main/FatzWeb%20technew">Code Page</a>
+              </p>
+              <i id="close" class="cerrar nes-icon close is-small nes-pointer"></i>
+            </div>
+          </div>
+          <div id="css3" class="nes-pointer opa-yello"><img src="./Iconos/css3-original-wordmark.svg" alt=""></div>
+          <div id="exhtml5" class="exskills">
+            <img src="./skills/html5-mobile-apps.png" alt="">
+            <div class="about-jquery">
+              <h2>HTML</h2>
+              <p>Html It is a standard that serves as a reference for software that connects with the development of web pages in its different versions, defines a basic structure and a code (called HTML code) for defining the content of a web page.
+              </p>
+
+              <p>
+                You can verify my skills in this language by reviewing the following project: 
+              </p>
+              <p>
+                <a target="blank" href="https://rococo-praline-a46051.netlify.app/">Live site Page</a>
+              </p>
+              <p>
+                <a target="blank" href="https://github.com/samuelpklm/freecodecamp-Responsive_Web_Design/tree/main/proyecto%203%20-%20Build%20a%20Landing%20Page">Code Page</a>
+              </p>
+              <i id="close" class="cerrar nes-icon close is-small nes-pointer"></i>
+            </div>
+          </div>
+          <div id="html5" class="nes-pointer opa-yello"><img src="./Iconos/html5-original-wordmark.svg" alt=""></div>
+          <div id="exvisual" class="exskills">
+            <img src="./skills/kisspng-microsoft-visual-studio-visual-studio-code-compute-studio-logo-5adfa1bba7a121.8047336115246053716866.jpg" alt="">
+            <div class="about-jquery">
+              <h2>VS Code</h2>
+              <p>Visual Studio Code is a source code editor developed by Microsoft for Windows, Linux, macOS, and the Web. It includes support for debugging, integrated Git control, syntax highlighting, smart code completion, snippets, and code refactoring.
+              </p>
+
+              <p>
+                You can verify my skills in this program by reviewing the following project:
+              </p>
+              <p>
+                <a target="blank" href="https://glowing-druid-b887c6.netlify.app/">Live site Page</a>
+              </p>
+              <p>
+                <a target="blank" href="https://github.com/samuelpklm/freecodecamp-Responsive_Web_Design/tree/main/Proyecto%201%20-%20Build%20a%20Tribute%20Page">Code Page</a>
+              </p>
+              <i id="close" class="cerrar nes-icon close is-small nes-pointer"></i>
+            </div>
+          </div>
+          <div id="visual" class="nes-pointer opa-yello"><img src="./Iconos/visual studio.svg" alt=""></div>
+          <div id="exjavascript" class="exskills">
+            <img src="./skills/Javascript.jpg" alt="">
+            <div class="about-jquery">
+              <h2>Javascript</h2>
+              <p>JavaScript (commonly abbreviated JS) is an interpreted programming language, a dialect of the ECMAScript standard. It is defined as object-oriented, prototype-based, imperative, weakly-typed, and dynamic.
+              </p>
+
+              <p>
+                You can verify my skills in this language by reviewing the following project:
+              </p>
+              <p>
+                <a target="blank" href="https://sweet-llama-075927.netlify.app/">Live site Page</a>
+              </p>
+              <p>
+                <a target="blank" href="https://github.com/samuelpklm/Sarut.github.io/tree/main/base%20apareal%20coming%20soong">Code Page</a>
+              </p>
+              <i id="close" class="cerrar nes-icon close is-small nes-pointer"></i>
+            </div>
+          </div>
+          <div id="javascript" class="nes-pointer opa-yello"><img src="./Iconos/javascript-original.svg" alt=""></div>
+          <div id="expostgresql" class="exskills">
+            <img src="./skills/head-trunk-elephant-abstract-wallpaper-preview.jpg" alt="">
+            <div class="about-jquery">
+              <h2>PostgreSQL</h2>
+              <p>PostgreSQL, also called Postgres, is an open source, object-oriented relational database management system, released under the PostgreSQL license.
+              </p>
+
+              <p>
+                You can verify my skills in this language by reviewing the following project: 
+              </p>
+             
+              <p>
+                <a target="blank" href="https://github.com/samuelpklm/Sarut-database/tree/main/Database%20with%20PostgreSQL">Code Page</a>
+              </p>
+              <i id="close" class="cerrar nes-icon close is-small nes-pointer"></i>
+            </div>
+          </div>
+          <div id="postgresql" class="nes-pointer opa-yello"><img src="./Iconos/postgresql.svg" alt=""></div>
+      </div>
+    </section>
+
+    <section id="proyect">
+      <section class="p15">
+        <a href="#proyect">My proyect
+          <div class="t1">
+            <div class="in"></div>
+          </div>
+          <div class="t2">
+            <div class="in"></div>
+          </div>
+        </a>
+      </section>
+
+      <div id="select-skill">
+        <div id="all-proyect" href="#ex-proyect" class="nes-badge is-icon nes-pointer">
+          <span id="type-badge" ><i id="type-icon"></i></span>
+          <span class="is-primary">All</span>
+        </div>
+        <div id="html-proyect" href="#ex-proyect" class="nes-badge is-icon nes-pointer">
+          <span id="type-badge" ><i id="type-icon"></i></span>
+          <span class="is-primary">HTML</span>
+        </div>
+        <div id="css-proyect" href="#ex-proyect" class="nes-badge is-icon nes-pointer">
+          <span id="type-badge" ><i id="type-icon"></i></span>
+          <span class="is-primary">CSS</span>
+        </div>
+        <div id="js-proyect" href="#ex-proyect" class="nes-badge is-icon nes-pointer">
+          <span id="type-badge" ><i id="type-icon"></i></span>
+          <span class="is-primary">JS</span>
+        </div>
+        <div id="bootstrap-proyect" href="#ex-proyect" class="nes-badge is-icon nes-pointer">
+          <span id="type-badge" ><i id="type-icon"></i></span>
+          <span class="is-primary">BS 5</span>
+        </div>
+        <div id="jquery-proyect" href="#ex-proyect" class="nes-badge is-icon nes-pointer">
+          <span id="type-badge" ><i id="type-icon"></i></span>
+          <span class="is-primary">JQuery</span>
+        </div>
+        <div id="postgresql-proyect" href="#ex-proyect" class="nes-badge is-icon nes-pointer">
+          <span id="type-badge" ><i id="type-icon"></i></span>
+          <span class="is-primary">SQL</span>
+        </div>
+      </div>
+      <div id="ex-proyect">
+        <div class="carta all html css jquery-tag">
+          <img src="./Proyectos/daniel proyecto.jpg" alt="" class="portada">
+
+          <div class="about-proyect">
+            <h4>Tribute Page</h4>
+            <p>Discover and learn about a historical character from the Bible!</p>
+            <div class="link-about-proyect">
+              <a target="blank" href="https://github.com/samuelpklm/freecodecamp-Responsive_Web_Design/tree/main/Proyecto%201%20-%20Build%20a%20Tribute%20Page"><img src="./Iconos/github.svg" alt="" class="github"></a>
+              <a target="blank" href="https://glowing-druid-b887c6.netlify.app/"><img src="./Iconos/eye.svg" alt="" class="live"></a>
+            </div>
+          </div>
+        </div>
+        <div class="carta all html css">
+          <img src="./Proyectos/html form.jpg" alt="" class="portada">
+
+          <div class="about-proyect color1">
+            <h4>Survey form</h4>
+            <p> implementation of forms in html, for different types of entries </p>
+            <div class="link-about-proyect">
+              <a target="blank" href="https://github.com/samuelpklm/freecodecamp-Responsive_Web_Design/tree/main/Proyect%202%20-%20Survey%20form"><img src="./Iconos/github.svg" alt="" class="github"></a>
+              <a target="blank" href="https://elaborate-macaron-98c958.netlify.app/"><img src="./Iconos/eye.svg" alt="" class="live"></a>
+            </div>
+          </div>
+        </div>
+        <div class="carta all html css">
+          <img src="./Proyectos/landing page pianochop.jpg" alt="" class="portada">
+
+          <div class="about-proyect color2">
+            <h4>Build a Landing Page</h4>
+            <p>Design of a page for the sale of some product</p>
+            <div class="link-about-proyect">
+              <a target="blank" href="https://github.com/samuelpklm/freecodecamp-Responsive_Web_Design/tree/main/proyecto%203%20-%20Build%20a%20Landing%20Page"><img src="./Iconos/github.svg" alt="" class="github"></a>
+              <a target="blank" href="https://rococo-praline-a46051.netlify.app/"><img src="./Iconos/eye.svg" alt="" class="live"></a>
+            </div>
+          </div>
+        </div>
+        <div class="carta all html css">
+          <img src="./Proyectos/Documen Page.jpg" alt="" class="portada">
+
+          <div class="about-proyect color3">
+            <h4>Documentation Page</h4>
+            <p>Python language documentation page</p>
+            <div class="link-about-proyect">
+              <a target="blank" href="https://github.com/samuelpklm/freecodecamp-Responsive_Web_Design/tree/main/Proyecto%204%20Build%20a%20Technical%20Documentation%20Page"><img src="./Iconos/github.svg" alt="" class="github"></a>
+              <a target="blank" href="https://eloquent-peony-71abc8.netlify.app/"><img src="./Iconos/eye.svg" alt="" class="live"></a>
+            </div>
+          </div>
+        </div>
+        <div class="carta all html css bootstrap-tag">
+          <img src="./Proyectos/testimonials-grid-section-main.jpg" alt="" class="portada">
+
+          <div class="about-proyect color4">
+            <h4>testimonials grid</h4>
+            <p>Cover letters grouped in a box!.</p>
+            <div class="link-about-proyect">
+              <a target="blank" href="https://github.com/samuelpklm/Sarut.github.io/tree/main/testimonials-grid-section-main"><img src="./Iconos/github.svg" alt="" class="github"></a>
+              <a target="blank" href="https://tourmaline-bienenstitch-6c84e7.netlify.app/"><img src="./Iconos/eye.svg" alt="" class="live"></a>
+            </div>
+          </div>
+        </div>
+        <div class="carta all html css">
+          <img src="./Proyectos/four-card-feature-section-master.png" alt="" class="portada">
+
+          <div class="about-proyect color5">
+            <h4>Four card</h4>
+            <p>Four letters made with grid, responsive presentation!.</p>
+            <div class="link-about-proyect">
+              <a target="blank" href="https://github.com/samuelpklm/Sarut.github.io/tree/main/four-card-feature-section-master"><img src="./Iconos/github.svg" alt="" class="github"></a>
+              <a target="blank" href="https://exquisite-tarsier-0a92cc.netlify.app/"><img src="./Iconos/eye.svg" alt="" class="live"></a>
+            </div>
+          </div>
+        </div>
+        <div class="carta all html css bootstrap-tag">
+          <img src="./Proyectos/nft-preview-card-component-main.jpg" alt="" class="portada">
+
+          <div class="about-proyect color6">
+            <h4>nft cards</h4>
+            <p>Responsive letter with elegant design, hover effects!</p>
+            <div class="link-about-proyect">
+              <a target="blank" href="https://github.com/samuelpklm/Sarut.github.io/edit/main/nft-preview-card-component-main/"><img src="./Iconos/github.svg" alt="" class="github"></a>
+              <a target="blank" href="https://inspiring-semolina-71566e.netlify.app/"><img src="./Iconos/eye.svg" alt="" class="live"></a>
+            </div>
+          </div>
+        </div>
+        <div class="carta all html css bootstrap-tag">
+          <img src="./Proyectos/order-summary-component-main.jpg" alt="" class="portada">
+
+          <div class="about-proyect color7">
+            <h4>Order summary</h4>
+            <p> Responsive letter made with bootstrap 5, as a summary of articles </p>
+            <div class="link-about-proyect">
+              <a target="blank" href="https://github.com/samuelpklm/Sarut.github.io/tree/main/order-summary-component-main"><img src="./Iconos/github.svg" alt="" class="github"></a>
+              <a target="blank" href="https://leafy-liger-5c289d.netlify.app/"><img src="./Iconos/eye.svg" alt="" class="live"></a>
+            </div>
+          </div>
+        </div>
+        <div class="carta all html css">
+          <img src="./Proyectos/single-price-grid-component-master.jpg" alt="" class="portada">
+
+          <div class="about-proyect color8">
+            <h4>Price grid</h4>
+            <p>Payment summary card, for some type of product</p>
+            <div class="link-about-proyect">
+              <a target="blank" href="https://github.com/samuelpklm/Sarut.github.io/edit/main/single-price-grid-component-master"><img src="./Iconos/github.svg" alt="" class="github"></a>
+              <a target="blank" href="https://dazzling-taiyaki-e52114.netlify.app/"><img src="./Iconos/eye.svg" alt="" class="live"></a>
+            </div>
+          </div>
+        </div>
+        <div class="carta all html css bootstrap-tag">
+          <img src="./Proyectos/epiccionables.png" alt="" class="portada">
+
+          <div class="about-proyect color9">
+            <h4>Idie Colection</h4>
+            <p>Page for the sale of collectible figures!</p>
+            <div class="link-about-proyect">
+              <a target="blank" href="https://github.com/samuelpklm/Sarut-jamstack.github.io/tree/main/FatzWeb"><img src="./Iconos/github.svg" alt="" class="github"></a>
+              <a target="blank" href="https://steady-kataifi-acc3c0.netlify.app/"><img src="./Iconos/eye.svg" alt="" class="live"></a>
+            </div>
+          </div>
+        </div>
+        <div class="carta all html css">
+          <img src="./Proyectos/technew.jpg" alt="" class="portada">
+
+          <div class="about-proyect color10">
+            <h4>New page</h4>
+            <p>International news page, with dark design</p>
+            <div class="link-about-proyect">
+              <a target="blank" href="https://github.com/samuelpklm/Sarut-jamstack.github.io/edit/main/FatzWeb%20technew"><img src="./Iconos/github.svg" alt="" class="github"></a>
+              <a target="blank" href="https://bright-platypus-a216b5.netlify.app/"><img src="./Iconos/eye.svg" alt="" class="live"></a>
+            </div>
+          </div>
+        </div>
+        <div class="carta all html css jquery-tag">
+          <img src="./Proyectos/article-preview-component-master.png" alt="" class="portada">
+
+          <div class="about-proyect color11">
+            <h4>Article preview</h4>
+            <p>Interactive page for displaying a business card.</p>
+            <div class="link-about-proyect">
+              <a target="blank" href="https://github.com/samuelpklm/Sarut.github.io/tree/main/article-preview-component-master"><img src="./Iconos/github.svg" alt="" class="github"></a>
+              <a target="blank" href="https://prismatic-youtiao-0bb5b6.netlify.app/"><img src="./Iconos/eye.svg" alt="" class="live"></a>
+            </div>
+          </div>
+        </div>
+        <div class="carta all html css js">
+          <img src="./Proyectos/base-apparel-coming-soon-master.jpg" alt="" class="portada">
+
+          <div class="about-proyect color12">
+            <h4>Base apparel</h4>
+            <p>Page for subscription by email, with email validation</p>
+            <div class="link-about-proyect">
+              <a target="blank" href="https://github.com/samuelpklm/Sarut.github.io/tree/main/base%20apareal%20coming%20soong"><img src="./Iconos/github.svg" alt="" class="github"></a>
+              <a target="blank" href="https://sweet-llama-075927.netlify.app/"><img src="./Iconos/eye.svg" alt="" class="live"></a>
+            </div>
+          </div>
+        </div>
+        <div class="carta all html css jquery-tag">
+          <img src="./Proyectos/Faq accordion.png" alt="" class="portada">
+
+          <div class="about-proyect color13">
+            <h4>Faq accordion</h4>
+            <p>Page with accordion-style questions, each question activates its response.</p>
+            <div class="link-about-proyect">
+              <a target="blank" href="https://github.com/samuelpklm/Sarut.github.io/tree/main/faq-accordion-card-main"><img src="./Iconos/github.svg" alt="" class="github"></a>
+              <a target="blank" href="https://zingy-rugelach-7734b2.netlify.app/"><img src="./Iconos/eye.svg" alt="" class="live"></a>
+            </div>
+          </div>
+        </div>
+        <div class="carta all html css js">
+          <img src="./Proyectos/interactive-rating-component-main.png" alt="" class="portada">
+
+          <div class="about-proyect color14">
+            <h4>Interactive rating</h4>
+            <p>Page for the evaluation of any product or service offered.</p>
+            <div class="link-about-proyect">
+              <a target="blank" href="https://github.com/samuelpklm/Sarut.github.io/tree/main/interactive-rating-component-main"><img src="./Iconos/github.svg" alt="" class="github"></a>
+              <a target="blank" href="https://visionary-salamander-ba16ff.netlify.app/"><img src="./Iconos/eye.svg" alt="" class="live"></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carta all database">
+          <img src="./Proyectos/postgresql.jpg" alt="" class="portada">
+
+          <div class="about-proyect color15">
+            <h4>Database</h4>
+            <p>Study for the design and development of a database with postgresSQL</p>
+            <div class="link-about-proyect">
+              <a target="blank" href="https://github.com/samuelpklm/Sarut-database/tree/main/Database%20with%20PostgreSQL"><img src="./Iconos/github.svg" alt="" class="github"></a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="contac-me">
+      <section class="p18">
+        <a href="#contac-me">
+          CONTACT ME</a>
+      </section>
+
+      <div id="contenedor-contacto">
+        <div id="izquierda-contact">
+         
+          <section class="nes-container white-card">
+            <div id="small-350" class="white-2">
+              <img id="me-contact" src="./Avatar/me_5.gif" alt="">
+              <div>
+                <h4>Samuel Rodriguez</h4>
+                <span> <i class="nes-icon trophy is-small"></i> Maquetador <i class="nes-icon trophy is-small"></i> </span>
+              </div>
+            </div>
+            <div class="white-2 star">
+            <i class="nes-icon is-medium star"></i>
+            <i class="nes-icon is-medium star"></i>
+            <i class="nes-icon is-medium star"></i>
+            <i class="nes-icon is-medium star is-half"></i>
+            <i class="nes-icon is-medium star is-transparent"></i>
+            <a target="blank" href="https://www.frontendmentor.io/profile/samuelpklm"><img src="./Iconos/Frontend-mentor-link.png" alt="" class="mentor"></a>
+          </div>
+          </section>
+          <section class="nes-container green">
+            <div id="small-350" class="white-2">
+              <img id="me-contact" src="./Avatar/me_5.gif" alt="">
+              <div>
+                <h4>Samuel Rodriguez</h4>
+                <span> <i class="nes-icon coin is-small"></i> Programmer JS <i class="nes-icon coin is-small"></i> </span>
+              </div>
+            </div>
+             <div class="white-2 star">
+            <i class="nes-icon is-medium star"></i>
+            <i class="nes-icon is-medium star"></i>
+            <i class="nes-icon is-medium star"></i>
+            <i class="nes-icon is-medium star is-transparent"></i>
+            <i class="nes-icon is-medium star is-transparent"></i>
+            <a target="blank" href="https://www.freecodecamp.org/Sarut"><img src="./Iconos/freecodecamp-link.png" alt="" class="mentor"></a>
+          </div>
+          </section>
+          <section class="nes-container blueski">
+            <div id="small-350" class="white-2">
+              <img id="me-contact" src="./Avatar/me_5.gif" alt="">
+              <div>
+                <h4>Samuel Rodriguez</h4>
+                <span> <i class="nes-icon close is-small"></i> backend <i class="nes-icon close is-small"></i> </span>
+              </div>
+            </div>
+             <div class="white-2 star">
+            <i class="nes-icon is-medium star"></i>
+            <i class="nes-icon is-medium star is-transparent"></i>
+            <i class="nes-icon is-medium star is-transparent"></i>
+            <i class="nes-icon is-medium star is-transparent"></i>
+            <i class="nes-icon is-medium star is-transparent"></i>
+          </div>
+          </section>
+
+          <section id="contact-link">
+            <div class="contact-iconos">
+              <a target="blank" href="https://www.facebook.com/samuelr.rodriguez.1"><i class="nes-icon facebook is-large nes-pointer"></i></a>
+              <a target="blank" href="https://github.com/samuelpklm"><i class="nes-icon github is-large"></i></a>
+              <i id="gmail-2" class="nes-icon gmail is-large nes-pointer"></i>
+            </div>
+            <span id="correo-sam">samuelr76@gmail.com</span>
+          </section>
+        </div>
+        <div id="derecha-contact">
+          <section id="formulario">
+          <form id="datos">
+            <div class="nes-field">
+              <label for="name">Name <abbr title="required" aria-label="required">*</abbr></label>
+              <input type="text" id="name" placeholder="Enter your name" class="nes-input" required>
+            </div>
+  
+            <div class="nes-field">
+              <label for="email">Email <abbr title="required" aria-label="required">*</abbr></label>
+              <input type="email" id="email" placeholder="Enter your email" required class="nes-input">
+            </div>
+  
+            <div class="nes-field">
+              <label for="Age">Age (optional)</label>
+              <input type="number" id="Age" placeholder="Age" class="nes-input">
+            </div>
+  
+            <label for="role">Which option best describes your current role? <abbr title="required" aria-label="required">*</abbr></label>
+           
+            <div class="nes-select">
+              <select id="role" required>
+                <option disabled selected value>Select current role</option>
+                <option value="Student">Student</option>
+                <option value="Full time Job">Full time Job</option>
+                <option value="Full time Learner">Full time Learner</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+                <option value="Other">Other</option>
+                <!-- <option value="challenges">Challenges</option> -->
+              </select>
+            </div>
+  
+            <div id="opinion-page">
+              <h3>How was my personal page?</h3>
+              <div class="contenedor-heart">
+                <div id="op1" class="nes-pointer"></div>
+                <div id="op2" class="nes-pointer"></div>
+                <div id="op3" class="nes-pointer"></div>
+                <div id="op4" class="nes-pointer"></div>
+                <div id="op5" class="nes-pointer"></div>
+                <div id="op6" class="nes-pointer"></div>
+                <div id="op7" class="nes-pointer"></div>
+                <div id="op8" class="nes-pointer"></div>
+                <div id="op9" class="nes-pointer"></div>
+                <div id="op10" class="nes-pointer"></div>
+              </div>
+              <div class="corazones">
+                <div class="corazones-receptivos">
+                  <i id="heart-1" class="nes-icon is-medium is-transparent heart"></i>
+                  <i id="heart-2" class="nes-icon is-medium is-transparent heart"></i>
+                  <i id="heart-3" class="nes-icon is-medium is-transparent heart"></i>
+                  <i id="heart-4" class="nes-icon is-medium is-transparent heart"></i>
+                  <i id="heart-5" class="nes-icon is-medium is-transparent heart"></i>
+                </div>
+              </div>
+
+              
+            </div>
+          
+  
+            
+  
+            <div class="form-group">
+              <label for="comments">Any comments or suggestions?</label>
+              <textarea id="comments" name="comment" cols="30" rows="10"
+              placeholder="Enter your comment here..." class="nes-textarea" required></textarea>
+              
+            </div>
+  
+            <button  type="button" >SEND TO SAMUEL</button>
+          </form>
+      </section>
+
+        </div>
+      </div>
+
+      <section id="copyright-nintendo">
+      
+        <div class="agradecimiento">
+          Most of the art featured on my personal page is the intellectual work of Nintendo, for which I personally thank the team at Nintendo, and the team that made a great 8-bit style CSS framework possible. (<a target="blank" href="https://nostalgic-css.github.io/NES.css/">NES.css</a>).
+        </div>
+        <div class="person-nintendo">
+          <i class="nes-kirby"></i>
+          <i class="nes-mario"></i>
+          <i class="nes-ash"></i>
+        </div>
+      </section>
+    </section>
+    
+
+   
+</main>
+
+
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+
+<script type="text/javascript">
+  (function(){
+  emailjs.init("oWXz8s9cWiPcCaF01");
+  })();
+</script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./main.js"></script>
+
+
+
+</body>
+</html>
