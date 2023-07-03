@@ -441,6 +441,113 @@ $(document).ready(function(){
         $("#proyect #select-skill #postgresql-proyect #type-icon").addClass("nes-icon star is-small");
      });
 
+     $("#react-proyect").click(function(){
+        $("#proyect #select-skill #type-badge").removeClass("is-warning");
+        $("#proyect #select-skill #type-icon").removeClass("nes-icon star is-small");
+
+        
+        $("#proyect #select-skill #react-proyect #type-badge").addClass("is-warning");
+        $("#proyect #select-skill #react-proyect #type-icon").addClass("nes-icon star is-small");
+     });
+
+     $("#tailwind-proyect").click(function(){
+        $("#proyect #select-skill #type-badge").removeClass("is-warning");
+        $("#proyect #select-skill #type-icon").removeClass("nes-icon star is-small");
+
+        
+        $("#proyect #select-skill #tailwind-proyect #type-badge").addClass("is-warning");
+        $("#proyect #select-skill #tailwind-proyect #type-icon").addClass("nes-icon star is-small");
+     });
+
+     $("#redux-proyect").click(function(){
+        $("#proyect #select-skill #type-badge").removeClass("is-warning");
+        $("#proyect #select-skill #type-icon").removeClass("nes-icon star is-small");
+
+        
+        $("#proyect #select-skill #redux-proyect #type-badge").addClass("is-warning");
+        $("#proyect #select-skill #redux-proyect #type-icon").addClass("nes-icon star is-small");
+     });
+
+     $("#remix-proyect").click(function(){
+        $("#proyect #select-skill #type-badge").removeClass("is-warning");
+        $("#proyect #select-skill #type-icon").removeClass("nes-icon star is-small");
+
+        
+        $("#proyect #select-skill #remix-proyect #type-badge").addClass("is-warning");
+        $("#proyect #select-skill #remix-proyect #type-icon").addClass("nes-icon star is-small");
+     });
+
+     $("#remix-proyect").click(function(){
+        $("#proyect #select-skill #type-badge").removeClass("is-warning");
+        $("#proyect #select-skill #type-icon").removeClass("nes-icon star is-small");
+
+        
+        $("#proyect #select-skill #remix-proyect #type-badge").addClass("is-warning");
+        $("#proyect #select-skill #remix-proyect #type-icon").addClass("nes-icon star is-small");
+     });
+
+     $("#prisma-proyect").click(function(){
+        $("#proyect #select-skill #type-badge").removeClass("is-warning");
+        $("#proyect #select-skill #type-icon").removeClass("nes-icon star is-small");
+
+        
+        $("#proyect #select-skill #prisma-proyect #type-badge").addClass("is-warning");
+        $("#proyect #select-skill #prisma-proyect #type-icon").addClass("nes-icon star is-small");
+     });
+
+     $("#api-proyect").click(function(){
+        $("#proyect #select-skill #type-badge").removeClass("is-warning");
+        $("#proyect #select-skill #type-icon").removeClass("nes-icon star is-small");
+
+        
+        $("#proyect #select-skill #api-proyect #type-badge").addClass("is-warning");
+        $("#proyect #select-skill #api-proyect #type-icon").addClass("nes-icon star is-small");
+     });
+
+     $("#typescript-proyect").click(function(){
+        $("#proyect #select-skill #type-badge").removeClass("is-warning");
+        $("#proyect #select-skill #type-icon").removeClass("nes-icon star is-small");
+
+        
+        $("#proyect #select-skill #typescript-proyect #type-badge").addClass("is-warning");
+        $("#proyect #select-skill #typescript-proyect #type-icon").addClass("nes-icon star is-small");
+     });
+
+     $("#sqlite-proyect").click(function(){
+        $("#proyect #select-skill #type-badge").removeClass("is-warning");
+        $("#proyect #select-skill #type-icon").removeClass("nes-icon star is-small");
+
+        
+        $("#proyect #select-skill #sqlite-proyect #type-badge").addClass("is-warning");
+        $("#proyect #select-skill #sqlite-proyect #type-icon").addClass("nes-icon star is-small");
+     });
+
+     $("#zod-proyect").click(function(){
+        $("#proyect #select-skill #type-badge").removeClass("is-warning");
+        $("#proyect #select-skill #type-icon").removeClass("nes-icon star is-small");
+
+        
+        $("#proyect #select-skill #zod-proyect #type-badge").addClass("is-warning");
+        $("#proyect #select-skill #zod-proyect #type-icon").addClass("nes-icon star is-small");
+     });
+
+     $("#vite-proyect").click(function(){
+        $("#proyect #select-skill #type-badge").removeClass("is-warning");
+        $("#proyect #select-skill #type-icon").removeClass("nes-icon star is-small");
+
+        
+        $("#proyect #select-skill #vite-proyect #type-badge").addClass("is-warning");
+        $("#proyect #select-skill #vite-proyect #type-icon").addClass("nes-icon star is-small");
+     });
+
+     $("#mui-proyect").click(function(){
+        $("#proyect #select-skill #type-badge").removeClass("is-warning");
+        $("#proyect #select-skill #type-icon").removeClass("nes-icon star is-small");
+
+        
+        $("#proyect #select-skill #mui-proyect #type-badge").addClass("is-warning");
+        $("#proyect #select-skill #mui-proyect #type-icon").addClass("nes-icon star is-small");
+     });
         $("#postgresql-proyect").click(function(){
        
             
@@ -483,6 +590,7 @@ $(document).ready(function(){
 
             $(".all").hide();
             $(".jquery-tag").show("medium");
+            $(".jquery").show("medium");
             
         });
 
@@ -490,6 +598,83 @@ $(document).ready(function(){
 
             $(".all").hide();
             $(".bootstrap-tag").show("medium");
+            
+        });
+
+        $("#react-proyect").click(function(){
+
+            $(".all").hide();
+            $(".react").show("medium");
+            
+        });
+
+        $("#tailwind-proyect").click(function(){
+
+            $(".all").hide();
+            $(".tailwind").show("medium");
+            
+        });
+
+        $("#redux-proyect").click(function(){
+
+            $(".all").hide();
+            $(".redux").show("medium");
+            
+        });
+
+        $("#remix-proyect").click(function(){
+
+            $(".all").hide();
+            $(".remix").show("medium");
+            
+        });
+
+        $("#prisma-proyect").click(function(){
+
+            $(".all").hide();
+            $(".prisma").show("medium");
+            
+        });
+
+        $("#api-proyect").click(function(){
+
+            $(".all").hide();
+            $(".api").show("medium");
+            
+        });
+
+        $("#typescript-proyect").click(function(){
+
+            $(".all").hide();
+            $(".typescript").show("medium");
+            
+        });
+
+        $("#sqlite-proyect").click(function(){
+
+            $(".all").hide();
+            $(".sqlite").show("medium");
+            
+        });
+
+        $("#zod-proyect").click(function(){
+
+            $(".all").hide();
+            $(".zod").show("medium");
+            
+        });
+
+        $("#vite-proyect").click(function(){
+
+            $(".all").hide();
+            $(".vite").show("medium");
+            
+        });
+
+        $("#mui-proyect").click(function(){
+
+            $(".all").hide();
+            $(".mui").show("medium");
             
         });
        
@@ -1214,7 +1399,7 @@ $(document).ready(function(){
         $("#jquery").click(function(){
             if(($(window).width()) <= 770){
                 
-                $("#exjquery img").attr("src","./skills/5cc1c3bd51697431e1e115c7c9f919f9.webp");
+                $("#exjquery img").attr("src","./skills/remixRun.jpg");
             }
         });
 
@@ -1222,10 +1407,10 @@ $(document).ready(function(){
         
         if(($(window).width()) <= 770){
             
-            $("#exjquery img").attr("src","./skills/5cc1c3bd51697431e1e115c7c9f919f9.webp");
+            $("#exjquery img").attr("src","./skills/remixRun.jpg");
 
         }else{
-            $("#exjquery img").attr("src","./skills/Jquery.jpg");
+            $("#exjquery img").attr("src","./skills/remix-run.jfif");
 
         } 
          
@@ -1234,7 +1419,7 @@ $(document).ready(function(){
     $("#html5").click(function(){
         if(($(window).width()) <= 770){
             
-            $("#exhtml5 img").attr("src","./skills/png-transparent-html-web-browser-attribute-visual-basic-microsoft-visual-studio-angry-beavers-logo-fictional-cha.png");
+            $("#exhtml5 img").attr("src","./skills/reactjssmall.png");
         }
     });
 
@@ -1242,10 +1427,10 @@ $(document).ready(function(){
     
     if(($(window).width()) <= 770){
         
-        $("#exhtml5 img").attr("src","./skills/png-transparent-html-web-browser-attribute-visual-basic-microsoft-visual-studio-angry-beavers-logo-fictional-cha.png");
+        $("#exhtml5 img").attr("src","./skills/reactjssmall.png");
 
     }else{
-        $("#exhtml5 img").attr("src","./skills/html5-mobile-apps.png");
+        $("#exhtml5 img").attr("src","./skills/reactjs.png");
 
     }
 
@@ -1274,7 +1459,7 @@ $(document).ready(function(){
     $("#css3").click(function(){
         if(($(window).width()) <= 770){
             
-            $("#excss3 img").attr("src","./skills/css3.jpg");
+            $("#excss3 img").attr("src","./skills/prismaSmall.jpg");
         }
     });
 
@@ -1282,10 +1467,10 @@ $(document).ready(function(){
     
     if(($(window).width()) <= 770){
         
-        $("#excss3 img").attr("src","./skills/css3.jpg");
+        $("#excss3 img").attr("src","./skills/prismaSmall.jpg");
 
     }else{
-        $("#excss3 img").attr("src","./skills/css3-830x467.jpg");
+        $("#excss3 img").attr("src","./skills/prisma.png");
 
     }
 
@@ -1294,7 +1479,7 @@ $(document).ready(function(){
     $("#visual").click(function(){
         if(($(window).width()) <= 770){
             
-            $("#exvisual img").attr("src","./skills/visual-studio-h.png");
+            $("#exvisual img").attr("src","./skills/tailwindSmall.png");
         }
     });
 
@@ -1302,10 +1487,10 @@ $(document).ready(function(){
     
     if(($(window).width()) <= 770){
         
-        $("#exvisual img").attr("src","./skills/visual-studio-h.png");
+        $("#exvisual img").attr("src","./skills/tailwindSmall.png");
 
     }else{
-        $("#exvisual img").attr("src","./skills/kisspng-microsoft-visual-studio-visual-studio-code-compute-studio-logo-5adfa1bba7a121.8047336115246053716866.jpg");
+        $("#exvisual img").attr("src","./skills/tailwindcss.png");
 
     }
 
@@ -1334,7 +1519,7 @@ $(document).ready(function(){
     $("#javascript").click(function(){
         if(($(window).width()) <= 770){
             
-            $("#exjavascript img").attr("src","./skills/Javascript-by-SoyHorizonte.jpg");
+            $("#exjavascript img").attr("src","./skills/typescriptSmall.png");
         }
     });
 
@@ -1342,10 +1527,10 @@ $(document).ready(function(){
     
     if(($(window).width()) <= 770){
         
-        $("#exjavascript img").attr("src","./skills/Javascript-by-SoyHorizonte.jpg");
+        $("#exjavascript img").attr("src","./skills/typescriptSmall.png");
 
     }else{
-        $("#exjavascript img").attr("src","./skills/Javascript.jpg");
+        $("#exjavascript img").attr("src","./skills/typescript.png");
 
     }
 

@@ -280,8 +280,8 @@ header{
 
 #jquery{
   background-color: rgba(145, 145, 145, 0.8);
-  width: 11rem;
-  height: 4rem;
+  width: 6rem;
+  height: 5rem;
  
   border-radius: 0.5rem;
   padding: 0.3rem;
@@ -340,8 +340,8 @@ header{
 
 #css3{
   background-color: rgba(145, 145, 145, 0.8);
-  width: 5rem;
-  height: 7rem;
+  width: 6rem;
+  height: 6rem;
 
   border-radius: 0.5rem;
   padding: 0.3rem;
@@ -354,8 +354,8 @@ header{
 
 #html5{
   background-color: rgba(145, 145, 145, 0.8);
-  width: 5rem;
-  height: 7rem;
+  width: 6rem;
+  height: 6rem;
 
   border-radius: 0.5rem;
   padding: 0.3rem;
@@ -373,7 +373,7 @@ header{
 #javascript{
   background-color: rgba(145, 145, 145, 0.8);
   width: 5rem;
-  height: 7rem;
+  height: 6rem;
 
   border-radius: 0.5rem;
   padding: 0.3rem;
@@ -1228,76 +1228,125 @@ section.p19 a:hover .s2:before {
 }
 
 .color1{
-  background-color: rgba(150, 100, 255, 0.8) !important;
-  color: rgb(3, 4, 4) !important;
-  border-bottom: 5px solid rgba(150, 100, 255, 1) !important;
+  background-color: rgba(244, 67, 54, 0.8) !important;
+  color: #FFF !important;
+  border-bottom: 5px solid #FFF !important;
 }
 .color2{
-  background-color: rgba(128, 249, 255, 0.8) !important;
-  color: rgb(80 , 79, 79) !important;
-  border-bottom: 5px solid rgba(128, 249, 255, 1) !important;
+  background-color: rgba(233, 30, 99, 0.8) !important;
+  color: #FFF !important;
+  border-bottom: 5px solid #FFF !important;
 }
 .color3{
-  background-color: rgba(234, 252, 131, 0.8) !important;
-  border-bottom: 5px solid rgba(234, 252, 131, 1) !important;
+  background-color: rgba(156, 39, 176, 0.8) !important;
+  color: #FFF !important;
+  border-bottom: 5px solid #FFF !important;
 }
 .color4{
-  background-color: rgba(129, 254, 160, 0.8) !important;
-  border-bottom: 5px solid rgba(129, 254, 160, 1) !important;
+  background-color: rgba(255, 138, 128, 0.8) !important;
+  color: #FFF !important;
+  border-bottom: 5px solid #FFF !important;
 }
 .color5{
-  background-color: rgba(179, 179, 217, 0.8) !important;
-  border-bottom: 5px solid rgba(79, 179, 217, 1) !important;
+  background-color: rgba(255, 128, 171, 0.8) !important;
+  color: #FFF !important;
+  border-bottom: 5px solid #FFF !important;
 }
 .color6{
-  background-color: rgba(4, 255, 130, 0.8) !important;
-  border-bottom: 5px solid rgba(4, 255, 130, 1) !important;
+  background-color: rgba(234, 128, 252, 0.8) !important;
+  color: #FFF !important;
+  border-bottom: 5px solid #FFF !important;
 }
 .color7{
-  background-color: rgba(64, 0, 64, 0.8) !important;
-  color: rgb(156, 156, 156) !important;
-  border-bottom: 5px solid rgba(64, 0, 64, 1) !important;
+  background-color: rgba(103, 58, 183, 0.8) !important;
+  color: #FFF !important;
+  border-bottom: 5px solid #FFF !important;
 }
 .color8{
-  background-color: rgba(128, 0, 0, 0.8) !important;
-  color: rgb(182, 182, 182) !important;
-  border-bottom: 5px solid rgba(128, 0, 0, 1) !important;
+  background-color: rgba(63, 81, 181, 0.8) !important;
+  color: #FFF !important;
+  border-bottom: 5px solid #FFF !important;
 }
 .color9{
-  background-color: rgba(192, 192, 192, 0.8) !important;
-  color: rgb(156, 12, 12) !important;
-  border-bottom: 5px solid rgba(192, 192, 192,1) !important;
+  background-color: rgba(33, 150, 243, 0.8) !important;
+  color: #FFF !important;
+  border-bottom: 5px solid #FFF !important;
 }
 .color10{
-  background-color: rgba(128, 0, 128, 0.8) !important;
-  color: rgb(234, 166, 72) !important;
-  border-bottom: 5px solid rgba(128, 0, 128,1) !important;
+  background-color: rgba(179, 136, 255, 0.8) !important;
+  color: #FFF !important;
+  border-bottom: 5px solid #FFF !important;
 }
 .color11{
-  background-color: rgba(64, 128, 128, 0.8) !important;
-  color: rgb(255, 255, 253) !important;
-  border-bottom: 5px solid rgba(64, 128, 128,1) !important;
+  background-color: rgba(140, 158, 255, 0.8) !important;
+  color: #FFF !important;
+  border-bottom: 5px solid #FFF !important;
 }
 .color12{
-  background-color: rgba(255, 0, 128, 0.8) !important;
-  color: rgb(255, 255, 253) !important;
-  border-bottom: 5px solid rgba(255, 0, 128, 1) !important;
+  background-color: rgba(130, 177, 255, 0.8) !important;
+  color: #FFF !important;
+  border-bottom: 5px solid #FFF !important;
 }
 .color13{
-  background-color: rgba(255, 128, 255, 0.8) !important;
-  color: rgb(81, 64, 64) !important;
-  border-bottom: 5px solid rgba(255, 128, 255, 1) !important;
+  background-color: rgba(3, 169, 244, 0.8) !important;
+  color: #FFF !important;
+  border-bottom: 5px solid #FFF !important;
 }
 .color14{
-  background-color: rgba(255, 255, 128, 0.8) !important;
-  color: rgb(106, 94, 94) !important;
-  border-bottom: 5px solid rgba(255, 255, 128, 1) !important;
+  background-color: rgba(0, 188, 212, 0.8) !important;
+  color: #FFF !important;
+  border-bottom: 5px solid #FFF !important;
 }
 
 .color15{
-  background-color: rgba(153, 217, 234, 0.8) !important;
-  color: rgb(0, 0, 0) !important;
-  border-bottom: 5px solid rgba(153, 217, 234, 1) !important;
+  background-color: rgba(0, 150, 136, 0.8) !important;
+  color: #FFF !important;
+  border-bottom: 5px solid #FFF !important;
+}
+.color16{
+  background-color: rgba(128, 216, 255, 0.8) !important;
+  color: #FFF !important;
+  border-bottom: 5px solid #FFF !important;
+}
+.color17{
+  background-color: rgba(132, 255, 255, 0.8) !important;
+  color: #FFF !important;
+  border-bottom: 5px solid #FFF !important;
+}
+.color18{
+  background-color: rgba(167, 255, 235, 0.8) !important;
+  color: #FFF !important;
+  border-bottom: 5px solid #FFF !important;
+}
+.color19{
+  background-color: rgba(76, 175, 80, 0.8) !important;
+  color: #FFF !important;
+  border-bottom: 5px solid #FFF !important;
+}
+.color20{
+  background-color: rgba(139, 195, 74, 0.8) !important;
+  color: #FFF !important;
+  border-bottom: 5px solid #FFF !important;
+}
+.color21{
+  background-color: rgba(205, 220, 57, 0.8) !important;
+  color: #FFF !important;
+  border-bottom: 5px solid #FFF !important;
+}
+.color22{
+  background-color: rgba(205, 235, 59, 0.8) !important;
+  color: #FFF !important;
+  border-bottom: 5px solid #FFF !important;
+}
+.color23{
+  background-color: rgba(255, 193, 7, 0.8) !important;
+  color: #FFF !important;
+  border-bottom: 5px solid #FFF !important;
+}
+.color24{
+  background-color: rgba(255, 152, 0, 0.8) !important;
+  color: #FFF !important;
+  border-bottom: 5px solid #FFF !important;
 }
 
 section.p15{
